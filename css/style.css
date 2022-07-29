@@ -1,14 +1,52 @@
 .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #080d15;
-    opacity: .7;
+    filter: brightness(40%);
 }
 
 @media screen and (max-width: 576px) {
-    .card {
-        width: 200px;
-        height: auto;
-    }
+        .carousel-caption {
+            width:70%;
+            height: fit-content;
+        }
+        .carousel-caption .h1 {
+            font-size: 24px;
+        }
+        .carousel-caption p {
+            font-size: 16px;
+        }
+        .carousel-caption .btn {
+            font-size: 16px;
+        }
+
 }
+
+@media screen and (min-width: 577px) {
+        .carousel-caption {
+            width:60%;
+            height: fit-content;
+        }
+        .carousel-caption .h1 {
+            font-size: 40px;
+        }
+        .carousel-caption p {
+            font-size: 20px;
+        }
+        .carousel-caption .btn {
+            font-size: 16px;
+        }
+}
+@media screen and (min-width: 900px) {
+        .carousel-caption {
+            width:50%;
+            height: fit-content;
+        }
+        .carousel-caption .h1 {
+            font-size: 60px;
+        }
+        .carousel-caption p {
+            font-size: 24px;
+        }
+        .carousel-caption .btn {
+            font-size: 18px;
+        }
+}
+
